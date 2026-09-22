@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>О нас — Кофейня «Зерно»</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Manrope', sans-serif; background: #2B1D16; color: #F5EDE0; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+  header { padding: 25px 0; background: rgba(43,29,22,0.95); position: sticky; top: 0; z-index: 10; }
+  .header-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; }
+  .logo { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700; color: #C8956C; }
+  nav a { margin-left: 25px; text-decoration: none; color: #F5EDE0; font-weight: 500; }
+  nav a:hover { color: #C8956C; }
+
+  .page-head { background: #3A2A20; text-align: center; padding: 50px 20px; }
+  .page-head h1 { font-family: 'Playfair Display', serif; font-size: 42px; color: #C8956C; }
+
+  .section { padding: 50px 0; }
+  .about { max-width: 800px; margin: 0 auto; line-height: 1.9; font-size: 18px; color: #E0CDB5; }
+  .about p { margin-bottom: 20px; }
+
+  .stats { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-top: 40px; }
+  .stat { background: #3A2A20; border-radius: 12px; padding: 25px; width: 220px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
+  .stat .num { font-family: 'Playfair Display', serif; font-size: 40px; color: #C8956C; font-weight: 700; }
+  .stat .label { color: #B09A82; margin-top: 8px; }
+
+  footer { background: #1F140F; text-align: center; padding: 30px 0; color: #B09A82; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container header-inner">
+    <div class="logo">Зерно</div>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="menu.html">Меню</a>
+      <a href="about.html">О нас</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-head">
+  <h1>О нас</h1>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="about">
+      <p>«Зерно» — маленькая независимая кофейня в центре города. Мы начали с одной кофемашины и любви к хорошему кофе.</p>
+      <p>Каждое утро мы обжариваем зёрна сами и готовим напитки только из свежего молока. Никаких сиропов, только натуральные вкусы.</p>
+      <p>Мы верим, что кофе — это про атмосферу: тёплый свет, уютные кресла, любимая музыка и разговоры. Заходите — сделаем ваш день лучше.</p>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><div class="num">5 лет</div><div class="label">варим кофе</div></div>
+      <div class="stat"><div class="num">30+</div><div class="label">сортов кофе</div></div>
+      <div class="stat"><div class="num">15000</div><div class="label">чашек в год</div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">© 2026 Кофейня «Зерно». Свежий кофе каждый день.</div>
+</footer>
+
+</body>
+</html>
