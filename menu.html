@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Меню — Кофейня «Зерно»</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Manrope', sans-serif; background: #2B1D16; color: #F5EDE0; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+  header { padding: 25px 0; background: rgba(43,29,22,0.95); position: sticky; top: 0; z-index: 10; }
+  .header-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; }
+  .logo { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700; color: #C8956C; }
+  nav a { margin-left: 25px; text-decoration: none; color: #F5EDE0; font-weight: 500; }
+  nav a:hover { color: #C8956C; }
+
+  .page-head { background: #3A2A20; text-align: center; padding: 50px 20px; }
+  .page-head h1 { font-family: 'Playfair Display', serif; font-size: 42px; color: #C8956C; }
+
+  .section { padding: 50px 0; }
+  .section h2 { font-family: 'Playfair Display', serif; font-size: 30px; color: #C8956C; margin-bottom: 30px; text-align: center; }
+
+  .menu-list { max-width: 700px; margin: 0 auto; }
+  .menu-item { display: flex; justify-content: space-between; align-items: center; padding: 15px 0; border-bottom: 1px solid #4A3527; }
+  .menu-item h3 { font-size: 18px; color: #F5EDE0; }
+  .menu-item .desc { color: #B09A82; font-size: 14px; margin-top: 4px; }
+  .menu-item .price { font-weight: 700; color: #C8956C; font-size: 18px; }
+
+  footer { background: #1F140F; text-align: center; padding: 30px 0; color: #B09A82; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container header-inner">
+    <div class="logo">Зерно</div>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="menu.html">Меню</a>
+      <a href="about.html">О нас</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-head">
+  <h1>Меню</h1>
+</div>
+
+<section class="section">
+  <div class="container">
+    <h2>Кофе</h2>
+    <div class="menu-list">
+      <div class="menu-item"><div><h3>Эспрессо</h3><div class="desc">Классическая крепость, 30 мл</div></div><div class="price">150 ₽</div></div>
+      <div class="menu-item"><div><h3>Американо</h3><div class="desc">Двойная порция эспрессо + вода</div></div><div class="price">180 ₽</div></div>
+      <div class="menu-item"><div><h3>Капучино</h3><div class="desc">Нежная молочная пена, 300 мл</div></div><div class="price">250 ₽</div></div>
+      <div class="menu-item"><div><h3>Латте</h3><div class="desc">Больше молока, мягкий вкус, 400 мл</div></div><div class="price">270 ₽</div></div>
+      <div class="menu-item"><div><h3>Раф</h3><div class="desc">Сливки и ваниль, наш фирменный</div></div><div class="price">290 ₽</div></div>
+      <div class="menu-item"><div><h3>Флэт уайт</h3><div class="desc">Двойной эспрессо и молоко</div></div><div class="price">280 ₽</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Десерты</h2>
+    <div class="menu-list">
+      <div class="menu-item"><div><h3>Чизкейк</h3><div class="desc">Классический, с ягодным соусом</div></div><div class="price">320 ₽</div></div>
+      <div class="menu-item"><div><h3>Морковный торт</h3><div class="desc">С орехами и крем-чизом</div></div><div class="price">290 ₽</div></div>
+      <div class="menu-item"><div><h3>Круассан</h3><div class="desc">Свежая выпечка каждое утро</div></div><div class="price">180 ₽</div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">© 2026 Кофейня «Зерно». Свежий кофе каждый день.</div>
+</footer>
+
+</body>
+</html>
